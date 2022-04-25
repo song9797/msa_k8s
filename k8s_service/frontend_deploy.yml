@@ -1,0 +1,30 @@
+!!msa.service.k8s_service.model.Deployment
+apiversion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+  - &id001 {app: frontend-app}
+  name: frontend-app
+spec:
+  clusterIP: null
+  ports: null
+  replicas: 1
+  selector:
+    app: null
+    matchLabels:
+    - {app: frontend-app}
+  serviceName: null
+  template:
+    metadata:
+      labels:
+      - *id001
+      name: null
+    spec:
+      containers:
+      - env: null
+        image: image
+        imagePullPolicy: Always
+        name: frontend-app
+        ports:
+        - {containerPort: 9000, name: null, port: 0, protocol: null, targetPort: 0}
+  type: null
