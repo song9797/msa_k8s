@@ -8,6 +8,6 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class Template_yml{
-    public Metadata_yml metadata;
+    public Metadata_template metadata;
     public Template_spec spec;
 }

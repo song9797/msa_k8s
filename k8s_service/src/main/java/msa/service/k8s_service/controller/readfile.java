@@ -21,7 +21,7 @@ public class readfile {
     @GetMapping("/readFile")
     public void readfile(){
         log.info("readfile");
-        createFile.loadMultipleYaml();
+        
         log.info("loadMultipleyaml");
         createFile.readFile("chat.yaml");
         log.info("readFile");
@@ -35,5 +35,7 @@ public class readfile {
         // createFile.deployMicroservice("frontend", "image", 9000);
         createFile.deploy_Microservice("frontend", "image", 9000);
         createFile.service_Microservice("frontend", "image", 9000);
+        createFile.deployGateway("image", 9999);
+        createFile.servicegateway("image", 9999);
     }
 }

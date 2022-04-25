@@ -8,5 +8,5 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class ValueFrom {
-    private ConfigMapKeyRef configMapKeyRef;
+    public ConfigMapKeyRef configMapKeyRef;
 }

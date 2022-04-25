@@ -7,7 +7,8 @@ import lombok.Setter;
 @Setter
 @Getter
 @NoArgsConstructor
-public class Port {
+public class Port_gateway{
     private int targetPort;
     private int port;
+    private String protocol;
 }

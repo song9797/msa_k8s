@@ -8,5 +8,5 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class Data {
-    private String eureka_service_address;
+    public String eureka_service_address;
 }

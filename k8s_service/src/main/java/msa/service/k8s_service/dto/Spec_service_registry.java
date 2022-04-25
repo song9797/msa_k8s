@@ -5,10 +5,11 @@ import java.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-@Setter
 @Getter
+@Setter
 @NoArgsConstructor
-public class Spec {
+public class Spec_service_registry{
     public Selector selector;
-    public List<Port> ports;
+    public List<Port_registry> ports;
+    private String clusterIP;
 }

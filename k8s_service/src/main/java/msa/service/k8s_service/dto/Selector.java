@@ -10,5 +10,4 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Selector {
     private String app;
-    public List<MatchLabel> matchLabels;
 }

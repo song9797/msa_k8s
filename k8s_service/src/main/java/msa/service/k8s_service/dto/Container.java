@@ -12,6 +12,7 @@ public class Container {
     private String name;
     private String image;
     private String imagePullPolicy;
-    public List<Port> ports;
-    private Env env;
+    public List<Port_deploy> ports;
 }
+
+

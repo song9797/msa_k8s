@@ -5,10 +5,12 @@ import java.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-@Setter
 @Getter
+@Setter
 @NoArgsConstructor
-public class Spec {
+public class Spec_stateful_service{
+    private String type;
+    
     public Selector selector;
     public List<Port> ports;
 }

@@ -1,0 +1,1 @@
+{"apiversion":"apps/v1","kind":"Deployment","metadata":{"name":"gateway-app","labels":[{"app":"gateway-app"}]},"spec":{"replicas":1,"selector":{"matchLabels":[{"app":"gateway-app"}]},"template":{"metadata":{"labels":[{"app":"gateway-app"}]},"spec":{"containers":[{"name":"gateway-app","image":"image","imagePullPolicy":"Always","ports":[{"containerPort":9999}]}]}}}}

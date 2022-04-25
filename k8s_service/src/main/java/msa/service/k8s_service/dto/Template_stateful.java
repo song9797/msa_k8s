@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 @Getter
 @NoArgsConstructor
-public class Port {
-    private int targetPort;
-    private int port;
+public class Template_stateful{
+    public Metadata_template metadata;
+    public Template_spec_stateful spec;
 }

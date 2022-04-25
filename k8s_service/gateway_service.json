@@ -1,0 +1,1 @@
+{"kind":"Service","apiVersion":"v1","metadata":{"name":"gateway-svc"},"spec":{"type":"LoadBalancer","selector":{"app":"gateway-app"},"ports":[{"targetPort":9999,"port":80,"protocol":"TCP"}]}}

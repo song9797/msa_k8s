@@ -5,10 +5,15 @@ import java.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-@Getter
 @Setter
+@Getter
 @NoArgsConstructor
-public class Metadata_yml{
+public class Container_Stateful {
     private String name;
+    private String image;
+    private String imagePullPolicy;
+    public List<Port_deploy> ports;
+    public List<Env> env;
 }
+
+

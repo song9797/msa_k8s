@@ -10,6 +10,6 @@ import lombok.Setter;
 public class Configmap {
     private String apiVersion;
     private String kind;
-    public Metadata_yml metadata_yml;
-    private Data data;
+    public Metadata_yml metadata;
+    public Data data;
 }

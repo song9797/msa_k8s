@@ -5,10 +5,11 @@ import java.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-@Setter
 @Getter
+@Setter
 @NoArgsConstructor
-public class Spec {
-    public Selector selector;
-    public List<Port> ports;
+public class Spec_deploy{
+    private int replicas;
+    public Selector_deploy selector;
+    public Template_yml template;
 }

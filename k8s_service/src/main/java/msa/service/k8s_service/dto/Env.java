@@ -9,5 +9,5 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Env {
     private String name;
-    private ValueFrom valueFrom;
+    public ValueFrom valueFrom;
 }

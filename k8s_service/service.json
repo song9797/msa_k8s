@@ -1,1 +1,0 @@
-{"kind":"Service","apiVersion":"v1","metadata":{"name":"frontend-svc","labels":null},"spec":{"replicas":0,"type":null,"selector":{"app":"frontend-app","matchLabels":null},"template":null,"ports":[{"containerPort":0,"targetPort":9000,"port":80,"protocol":null,"name":null}],"clusterIP":null,"serviceName":null}}
